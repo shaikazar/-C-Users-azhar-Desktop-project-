@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sam{
+    width: 100px;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+
+.sam .shaik{
+    width: 300px;
+    margin: 100px auto 0;
+    overflow: visible;
+}

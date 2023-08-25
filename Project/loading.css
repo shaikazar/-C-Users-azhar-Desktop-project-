@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+    background: rgb(246,248,248);
+
+}
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    min-height: 50vh;
+}
+
+.circle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: ring 2s linear infinite;
+
+}
+
+@keyframes ring{
+    0%{
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px #b63030;
+        }
+
+}
+
+
+50%{
+    transform: rotate(360deg);
+    box-shadow:1px 5px 2px #b63030;
+     }
+
+50%{
+    transform: rotate(90deg)
+    box-shadow: 1px 5px 2px #b63035;
+
+}
+
+  .ring::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(27,145, 104,0.3);
+}
+
+span{
+    color: #c72b2b;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 100px;
+    animation: text 3s ease-in-out infinite;
+
+}
+@keyframes text{
+    50%{
+        color: rgb(5, 0, 0);
+    }
+}

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> GOOGLE SEARCH BAR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="C:\Users\azhar\Desktop\project\Project\Java Script\searchbar.css">
+    </head>
+    <body>
+        <div class="search">
+            <div id="searchBox" >
+                <img src="C:\Users\azhar\Desktop\New folder\Google__G__Logo.svg.png" id="googleIcon">
+                <input type="text" placeholder="Search Google or type a URL">
+                <img src="C:\Users\azhar\Desktop\New folder\Google_mic.svg.png" class="micIcon">
+
+            </div>
+        </div>
+        <script>
+
+            var searchBox = document.getElementById("searchBox");
+            var googleIcon = document.getElementById("googleIcon");
+
+            googleIcon.onclick = function(){
+                searchBox.classList.toggle("active");
+            }
+        </script>
+
+
+
+    </body>
+</html>

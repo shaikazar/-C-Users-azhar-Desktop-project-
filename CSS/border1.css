@@ -1,0 +1,11 @@
+.box{
+    width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    border-width: 30px;
+    border-style:solid;
+    border-color: red;
+    border-image-source:url("azhar/Desktop/ab.jpg");
+    border-image-slice: 40;
+
+}

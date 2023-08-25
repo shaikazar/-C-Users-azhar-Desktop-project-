@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>VAR RETURN VALUE IN JAVASCRIPT</title>
+    </head>
+    <body>
+        <script>
+            document.write("total marks-625","<br>")
+
+            function marks (soc,sci,mat,kan,eng,hin){
+                var x = soc,sci,mat,kan,eng,hin;
+                return x;
+            };
+
+            var y = marks(78+85+56+105+95+99);
+            document.write("marks -" + y +"<br>");
+            
+
+            function per (tm){
+                var z =tm*100/625
+                return z;
+            };
+
+            var a = per(y);
+            document.write(a + "%");
+
+        </script>
+    </body>
+</html>

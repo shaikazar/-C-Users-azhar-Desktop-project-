@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     background: #000;
+     font-family: 'poppins' sans-serif;
+}
+
+.main{
+    width: 60%;
+    margin: 20% auto;
+    position: relative;
+    
+}
+
+#slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    outline: none;
+    border-radius: 3px;
+
+}
+
+#slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+
+
+}
+
+#selector{
+    height: 104px;
+    width: 48px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.selectorBtn{
+    height: 48px;
+    width: 48px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+#Selectvalue{
+    width: 48px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    background: #ffd200;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#Selectvalue::after{
+    
+}
