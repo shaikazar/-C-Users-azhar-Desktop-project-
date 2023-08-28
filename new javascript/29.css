@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+div#azar{
+    margin: 10px;
+    width: 60%;
+}
+
+div#shaik{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+
+div#azar h1{
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+div#azar img{
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+div#azar img :hover {
+ filter: grayscale(100%);
+}

@@ -1,0 +1,78 @@
+<html>
+    <head>
+    <title>WINDOW ONLOAD IN JAVASCRIPT</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        div#azar{
+            margin: 10PX;
+            width: 400PX;
+
+        }
+
+        div#azar > div#button{
+            padding: 0px 30px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        .black{
+            color: white;
+            background-color: red;
+        }
+        .white{
+            color: red;
+            background-color: white;
+        }
+    </style>
+    </head>
+    <body id="body">
+        <div id="azar">
+            <div id="content">
+
+                <h1>ComputerIntruduction</h1>
+                <p>
+                    Computer : is an electronic device that operates (works) 
+                    under the control of programs stored in its own memory unit.
+                    A computer is an electronic 
+                    machine that processes raw data to give information as output.
+
+                    An electronic device that accepts data as input, and 
+                    transforms it under the influence of a set of special 
+                    instructions called Programs, to produce the desired output 
+                    (referred to as Information).
+
+                    Explanations;
+                    A computer is described as an electronic device because;
+                     it is made up of electronic components and uses electric energy
+                      (such as electricity) to operate.
+                </p>
+
+
+
+            </div>
+
+            <div id="button" class="black">CHANGE COLOR </div>
+             
+        </div>
+
+        <script>
+            var body = document.getElementById("body")
+            var button = document.getElementById("button");
+            button.onclick=function(){
+
+                
+            if (body.className=="black"){
+                body.className="white";
+                button.className="black";
+            }else{
+                body.className="black";
+                button.className="white";
+            }
+        };
+        </script>
+       
+
+    </body>
+    </html>
